@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
-    <!-- Package major for all Zaya.UI projects. -->
-    <ZayaUiMajor>1</ZayaUiMajor>
+    <!-- Pin to published Zaya.Primitives; Major becomes Version Major for all projects. -->
+    <ZayaPrimitivesVersion>2.0.0</ZayaPrimitivesVersion>
+    <ZayaPrimitivesMajor>$([System.Version]::Parse('$(ZayaPrimitivesVersion)').Major)</ZayaPrimitivesMajor>
   </PropertyGroup>
 </Project>
