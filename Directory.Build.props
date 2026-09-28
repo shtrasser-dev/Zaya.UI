@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Package major for all Zaya.UI projects. -->
+    <ZayaUiMajor>1</ZayaUiMajor>
+  </PropertyGroup>
+</Project>
